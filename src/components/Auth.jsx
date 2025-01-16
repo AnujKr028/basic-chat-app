@@ -1,6 +1,5 @@
 import {auth, provider} from '../firebase-config' 
 import {signInWithPopup} from 'firebase/auth' ;
-import setIsAuth from '../App';
 
 
 import Cookies from 'universal-cookie'; 
