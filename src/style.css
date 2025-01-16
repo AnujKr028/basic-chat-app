@@ -1,0 +1,257 @@
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: auto;
+} 
+
+
+body{  
+
+background: url(https://wallpapers.com/images/hd/dark-mountains-at-twilight-d0tcg70lksskdtf5.webp);
+  background-size: cover;
+  background-position:center; 
+  background-repeat: no-repeat;
+
+display: flex; 
+justify-content: center; 
+align-items: center;
+height: 100vh; 
+
+} 
+
+.room-label{ 
+  color: white; 
+  font-size: 2em;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+} 
+
+input{ 
+
+  width: 250px; 
+  height: 30px;  
+  margin-top: 30px;
+}
+
+
+.room-enter-btn{ 
+ width: 250px;
+
+ padding: 12px;
+ margin-top: 15px;
+ background-color: #6EACDA ; 
+ color: white; 
+ border: none; 
+ border-radius: 10px;
+ font-size: 15px;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+.chat-app{ 
+background:#f1f1f1; 
+border: none; 
+margin-top: 10px;
+
+height: 70vh;
+display: flex; 
+flex-direction: column; 
+justify-content: space-between; 
+padding: 10px;
+box-sizing: border-box; 
+box-shadow: 
+  0 4px 6px rgba(0, 0, 0, 0.1),   /* Soft shadow for subtle depth */
+  0 1px 3px rgba(0, 0, 0, 0.08);  /* Extra soft shadow for blending */
+border-radius: 12px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) { /* For tablets and smaller devices */
+.chat-app {
+  width: 100%; /* Adjust width to 90% of the screen */
+  height: 70vh; /* Slightly reduce height for smaller screens */
+}
+}
+
+@media (max-width: 480px) { /* For phones */
+.chat-app {
+  width: 100%; /* Use 95% of the screen width */
+  height: 60vh; /* Further reduce height for very small screens */
+}
+}
+
+
+.chat-app-message{ 
+  font-size: 15px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; 
+  line-height: 1.5; 
+  overflow-y: auto; 
+  flex: 1; 
+}
+
+.chat-app-title{ 
+text-align: center; 
+color: #1D1616;
+font-family: "Pacifico", serif;
+font-weight: 400;
+margin-bottom: 25px; 
+}
+.new-message-input{
+width: 100%; /* Makes the input box span the full width */
+height: 40px;
+margin-top: 15px;
+border-radius: 5px;
+padding: 8px;
+border: 1px solid #ccc;
+outline: none;
+font-size: 16px;
+
+}
+
+.message-text{
+padding: 10px;
+}
+
+.submit-btn {
+width: 100%; /* Full-width button */
+height: 40px;
+/* margin-top: 10px; */
+background-color: #6EACDA;
+color: white;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+}
+
+
+
+
+
+.sign-out{ 
+display: flex; 
+justify-content: center; 
+margin: 50px; 
+
+} 
+
+.sign-out button{ 
+padding-left: 20px;
+padding-right: 20px; 
+padding-top: 5px;
+padding-bottom: 5px; 
+border: none; 
+border-radius: 5px; 
+color: #1D1616; 
+font-size: 14px; 
+font-family: 'Roboto'; 
+cursor: pointer; 
+
+}
+
+.signOut-btn:hover{ 
+background: #1E201E; 
+color: #f1f1f1;
+}
+
+
+
+
+
+
+/* room-name-enter page */ 
+
+
+.room-box-2{ 
+background-color: #fff;  
+padding:30px; 
+color: #1D1616; 
+border: none; 
+border-radius: 15px; 
+
+
+
+}
+
+.room-label{ 
+color: #1D1616; 
+font-weight: bold ;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; 
+
+
+} 
+
+
+
+/* auth-page */ 
+.auth-page-div{ 
+display: flex;  
+flex-direction: column;
+justify-content: center; 
+align-items: center; 
+height: 80vh;
+text-align: center;
+} 
+
+.auth-page-title{ 
+color: white; 
+font-family: Arial, Helvetica, sans-serif; 
+position: relative; 
+bottom: 150px; 
+font-size: 2em;
+} 
+
+
+.auth-signIn-box{ 
+
+background-color: #fff ;  
+color: #1E201E; 
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 30px; 
+width: 400px;
+overflow: auto; 
+border: none; 
+border-radius : 10px;
+
+}
+
+.auth-page-signIntitle{ 
+padding: 10px; 
+margin-top: 10px; 
+margin-bottom: 10px;
+}  
+
+.auth-btn{ 
+padding: 10px; 
+border: none; 
+background-color: #6EACDA;  
+color: #f1f1f1;
+border-radius: 10px; 
+}
+
+.auth-btn:hover{
+background: #1E201E; 
+color: #f1f1f1;
+cursor: pointer;
+}
+
+
+.room-name{ 
+  font-size: 14px;  
+ font-family: Arial, Helvetica, sans-serif;
+}
